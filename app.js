@@ -28,7 +28,7 @@ rowNumber += 1
 total += Number(price.value)
 
 console.log(total)
-totalAmount.textContent = `Total Amount: ${total}`
+totalAmount.textContent = `Total Amount: $${total}`
 newRowHead.textContent = rowNumber
 newRow.append(newRowHead)
 newRow.append(newItem)
